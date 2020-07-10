@@ -1,0 +1,9 @@
+# default values for blocks
+default height:25 width:50 stroke:color(black)
+
+# block definitions
+bdef symbol:* hit_points:1 fill:color(yellow)
+bdef symbol:^ hit_points:2 fill:image(resource/block_images/zebra.jpg) fill-2:image(resource/block_images/leopard.jpg)
+
+# spacers definitions
+sdef symbol:- width:60
